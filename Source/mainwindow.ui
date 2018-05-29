@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>370</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Engineering IT Sofware Installation Tool - Created By Blake Mallory</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>emerson_logoicon.ico</normaloff>emerson_logoicon.ico</iconset>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <widget class="QPushButton" name="Standard_Set_Up">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>170</y>
+      <width>100</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Standard Set Up</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="Support_Docs">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>340</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Open Install Docs</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Emerson_logo">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>631</width>
+      <height>371</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="resources.qrc">:/Photos/emerson-electric_resize2.jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="SnagIt">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>120</y>
+      <width>100</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>SnagIT</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Good_Sync">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>320</y>
+      <width>100</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Good Sync</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="RefProp">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>70</y>
+      <width>100</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>RefProp</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="Open_location">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>320</y>
+      <width>111</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Open File Location</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Adobe_Acrobat">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>100</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Adobe Acrobat</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="NX">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>320</y>
+      <width>100</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>NX</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="CAD_InvMechElect">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>270</y>
+      <width>100</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>AutoCad 
+Inv, Mech, Elect</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="CAD_InvMech">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>120</y>
+      <width>100</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>AutoCad
+Inv, Mech</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="CAD_Mech">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>220</y>
+      <width>100</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>AutoCad
+Mech</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="CAD_Elect">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>100</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>AutoCad
+Elect</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="CAD_license">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>170</y>
+      <width>100</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>AutoCad License
+Fix</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Logitech_drivers">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>70</y>
+      <width>100</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Logitech
+Drivers</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="DellDrivers">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>220</y>
+      <width>100</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Dell Drivers</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="NvidiaDrivers">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>270</y>
+      <width>100</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Nvidia Drivers</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ConnexionDrivers">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>20</y>
+      <width>100</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Connexion Drivers</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MatLab">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>170</y>
+      <width>100</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>MatLab/SimuLink</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Kronos">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>20</y>
+      <width>100</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Kronos</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="New_comp_email">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>220</y>
+      <width>100</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>New Computer
+Email</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Data_transfer_email">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>170</y>
+      <width>100</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Data Transfer
+Email</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Printer_Setup">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>20</y>
+      <width>100</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Printer Set Up</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="TeamCenter">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>220</y>
+      <width>100</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TeamCenter</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ELT">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>270</y>
+      <width>100</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ELT</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="CPIDView">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>120</y>
+      <width>100</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CPID View</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="CPIDRate">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>70</y>
+      <width>100</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CPID Rate</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Compressor_Calc">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>320</y>
+      <width>100</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Compressor
+Calculator</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MathCad">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>120</y>
+      <width>100</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>MathCad</string>
+    </property>
+   </widget>
+   <zorder>Emerson_logo</zorder>
+   <zorder>SnagIt</zorder>
+   <zorder>Good_Sync</zorder>
+   <zorder>RefProp</zorder>
+   <zorder>Open_location</zorder>
+   <zorder>Adobe_Acrobat</zorder>
+   <zorder>NX</zorder>
+   <zorder>CAD_InvMechElect</zorder>
+   <zorder>CAD_InvMech</zorder>
+   <zorder>CAD_Mech</zorder>
+   <zorder>CAD_Elect</zorder>
+   <zorder>CAD_license</zorder>
+   <zorder>Logitech_drivers</zorder>
+   <zorder>DellDrivers</zorder>
+   <zorder>NvidiaDrivers</zorder>
+   <zorder>ConnexionDrivers</zorder>
+   <zorder>MatLab</zorder>
+   <zorder>Kronos</zorder>
+   <zorder>Support_Docs</zorder>
+   <zorder>New_comp_email</zorder>
+   <zorder>Data_transfer_email</zorder>
+   <zorder>Standard_Set_Up</zorder>
+   <zorder>Printer_Setup</zorder>
+   <zorder>TeamCenter</zorder>
+   <zorder>ELT</zorder>
+   <zorder>CPIDView</zorder>
+   <zorder>CPIDRate</zorder>
+   <zorder>Compressor_Calc</zorder>
+   <zorder>MathCad</zorder>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
